@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'HelloWorld';
+
+  ngOnInit() {
+    this.title = "Hello from BridgeLabz";
+  }
 }
